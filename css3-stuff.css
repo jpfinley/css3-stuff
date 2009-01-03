@@ -131,24 +131,47 @@
   border: 1px solid #000000;
 }
 
-#one {
+#one.text-shadow-example {
   text-shadow: 5px 5px 5px #000000;
 }
 
-#two {
+#two.text-shadow-example {
   text-shadow: -2px 7px 9px green;
 }
 
-#three {
+#three.text-shadow-example {
   font-family: "Lucida Grande", "Trebuchet MS";
   color: #222222;
 	background-color: #BABABA;
   text-shadow: 1px 1px 1px #FFFFFF;
 }
 
-#four {
+#four.text-shadow-example {
   font-family: "Lucida Grande", "Trebuchet MS";
   color: #000000;
 	background-color: #000000;
   text-shadow: 0px 0px 7px #FFFFFF;
+}
+
+
+
+/* examples for text-shadow */
+
+.resize-example {
+	width: 200px;
+	height: 100px;
+	border: 1px solid;
+	resize: both;
+	overflow: auto;
+	margin: 1em;
+}
+
+#two.resize-example {
+  background-color: #B68DE2;
+  border: none;
+}
+
+#four.resize-example {
+  min-width: 250px;
+  max-width: 300px;
 }
