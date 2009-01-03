@@ -140,8 +140,15 @@
 }
 
 #three {
-  font-family: "Lucida Grande";
+  font-family: "Lucida Grande", "Trebuchet MS";
   color: #222222;
 	background-color: #BABABA;
   text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+#four {
+  font-family: "Lucida Grande", "Trebuchet MS";
+  color: #000000;
+	background-color: #000000;
+  text-shadow: 0px 0px 7px #FFFFFF;
 }
