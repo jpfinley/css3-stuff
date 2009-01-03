@@ -1,0 +1,65 @@
+/*
+//
+// examples for border-radius
+//
+*/
+
+.border-radius-example {
+  width: 700px;
+  background-color: #EEEEEE;
+  padding: 1em;
+  margin: 1em;
+  border: 1px solid #000000;
+}
+
+#one {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+#two {
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topright: 10px;
+}
+
+#three {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+
+#four {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+
+#five {
+  -webkit-border-radius: 44px;
+  -moz-border-radius: 44px;
+}
+
+#six {
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+}
+
+#seven {
+  -webkit-border-radius: -10px;
+  -moz-border-radius: -10px;
+}
+
+#eight {
+  border: 1px dashed #000000;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+#nine {
+  border: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+#ten {
+  -webkit-border-radius: 20px 10px;
+  -moz-border-radius: 20px 10px;
+}
