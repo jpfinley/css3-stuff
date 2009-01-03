@@ -88,3 +88,32 @@
   -webkit-border-radius: 20px 10px;
   -moz-border-radius: 20px 10px;
 }
+
+
+
+/* examples for box-shadow */
+
+.box-shadow-example {
+  width: 700px;
+  background-color: #EEEEEE;
+  padding: 1em;
+  margin: 1.5em;
+  border: 1px solid #000000;
+}
+
+#one.box-shadow-example {
+  -webkit-box-shadow: -10px -10px 0px #000;
+}
+
+#two.box-shadow-example {
+  -webkit-box-shadow: 10px 10px 6px #000;
+}
+
+#three.box-shadow-example {
+  -webkit-box-shadow: 20px 18px 15px #aaa;
+}
+
+#four.box-shadow-example {
+  -webkit-box-shadow: -4px 4px 2px #aaa;
+  -webkit-border-radius: 10px;
+}
