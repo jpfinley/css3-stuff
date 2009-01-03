@@ -102,18 +102,46 @@
 }
 
 #one.box-shadow-example {
-  -webkit-box-shadow: -10px -10px 0px #000;
+  -webkit-box-shadow: -10px -10px 0px #000000;
 }
 
 #two.box-shadow-example {
-  -webkit-box-shadow: 10px 10px 6px #000;
+  -webkit-box-shadow: 10px 10px 6px #000000;
 }
 
 #three.box-shadow-example {
-  -webkit-box-shadow: 20px 18px 15px #aaa;
+  -webkit-box-shadow: 20px 18px 15px #AAAAAA;
 }
 
 #four.box-shadow-example {
-  -webkit-box-shadow: -4px 4px 2px #aaa;
+  -webkit-box-shadow: -4px 4px 2px #AAAAAA;
+    box-shadow: -4px 4px 2px #AAAAAA;
   -webkit-border-radius: 10px;
+}
+
+
+
+/* examples for text-shadow */
+
+.text-shadow-example {
+  width: 700px;
+  background-color: #EEEEEE;
+  padding: 1em;
+  margin: 1.5em;
+  border: 1px solid #000000;
+}
+
+#one {
+  text-shadow: 5px 5px 5px #000000;
+}
+
+#two {
+  text-shadow: -2px 7px 9px green;
+}
+
+#three {
+  font-family: "Lucida Grande";
+  color: #222222;
+	background-color: #BABABA;
+  text-shadow: 1px 1px 1px #FFFFFF;
 }
