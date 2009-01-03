@@ -1,8 +1,33 @@
-/*
-//
-// examples for border-radius
-//
-*/
+/* setup */
+
+#tests { clear: both; margin-top: 1em; }
+
+
+
+/* examples for border-color */
+
+.border-color-example { margin: 1em; }
+
+#one.border-color-example {
+  border: 10px solid #000;
+  -moz-border-bottom-colors: blue blue blue blue yellow yellow blue blue blue blue;
+  -moz-border-top-colors:    blue blue blue blue yellow yellow blue blue blue blue;
+  -moz-border-left-colors:   blue blue blue blue yellow yellow blue blue blue blue;
+  -moz-border-right-colors:  blue blue blue blue yellow yellow blue blue blue blue;
+  padding: 1em;
+}
+
+#two.border-color-example {
+  border: 10px solid #000;
+  -moz-border-bottom-colors: blue blue blue blue yellow yellow blue blue blue blue;
+  -moz-border-top-colors:    blue yellow;
+  -moz-border-left-colors:   blue blue blue blue yellow yellow blue blue blue blue;
+  -moz-border-right-colors:  blue blue blue blue yellow yellow blue blue blue blue;
+  padding: 1em;
+}
+
+
+/* examples for border-radius */
 
 .border-radius-example {
   width: 700px;
@@ -12,54 +37,54 @@
   border: 1px solid #000000;
 }
 
-#one {
+#one.border-radius-example {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
 }
 
-#two {
+#two.border-radius-example {
   -webkit-border-top-right-radius: 10px;
   -moz-border-radius-topright: 10px;
 }
 
-#three {
+#three.border-radius-example {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
 }
 
-#four {
+#four.border-radius-example {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
 }
 
-#five {
+#five.border-radius-example {
   -webkit-border-radius: 44px;
   -moz-border-radius: 44px;
 }
 
-#six {
+#six.border-radius-example {
   -webkit-border-radius: 60px;
   -moz-border-radius: 60px;
 }
 
-#seven {
+#seven.border-radius-example {
   -webkit-border-radius: -10px;
   -moz-border-radius: -10px;
 }
 
-#eight {
+#eight.border-radius-example {
   border: 1px dashed #000000;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
 }
 
-#nine {
+#nine.border-radius-example {
   border: none;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
 }
 
-#ten {
+#ten.border-radius-example {
   -webkit-border-radius: 20px 10px;
   -moz-border-radius: 20px 10px;
 }
