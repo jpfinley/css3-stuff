@@ -2,7 +2,9 @@
 
 #tests { clear: both; margin-top: 1em; }
 
-
+a, a:link, a:visited {
+	text-decoration: none;
+}
 
 /* examples for border-color */
 
