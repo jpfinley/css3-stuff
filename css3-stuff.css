@@ -121,6 +121,33 @@
 
 
 
+/* examples for column */
+
+.column-example {
+  margin: 1em;
+}
+
+#two.column-example {
+  -moz-column-width: 10em;
+  -webkit-column-width: 10em;
+}
+
+#three.column-example {
+  -moz-column-width: 10em;
+  -webkit-column-width: 10em;
+  -moz-column-gap: 2em;
+  -webkit-column-gap: 2em;
+}
+
+#four.column-example {
+  -moz-column-width: 10em;
+  -webkit-column-width: 10em;
+  -moz-column-gap: 2em;
+  -webkit-column-gap: 2em;
+  -moz-column-rule: 1px solid red;
+  -webkit-column-rule: 1px solid red;
+}
+
 /* examples for text-shadow */
 
 .text-shadow-example {
@@ -155,7 +182,7 @@
 
 
 
-/* examples for text-shadow */
+/* examples for resize */
 
 .resize-example {
 	width: 200px;
