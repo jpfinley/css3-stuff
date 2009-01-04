@@ -202,3 +202,34 @@
   min-width: 250px;
   max-width: 300px;
 }
+
+
+
+/* examples for @font-face */
+
+.font-face-example {
+  font-size: 1.4em;
+  @font-face {
+    font-family: "Fontin Sans";
+    src: url("/fonts/Fontin_Sans_R_45b.otf");
+  }
+  @font-face {
+    font-family: "Fontin Sans";
+    font-weight: italic;
+    src: url("/fonts/Fontin_Sans_I_45b.otf");
+  }
+}
+
+#two.font-face-example {
+  font-family: "Fontin Sans";
+}
+
+
+span#bar {
+  font-style: italic;
+  color: #FF0033;
+}
+
+#three.font-face-example {
+  font-family: "Fontin Sans";
+}
