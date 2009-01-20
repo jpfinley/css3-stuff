@@ -1,7 +1,4 @@
-h1 { text-align: center; font-size: 500%; margin: 100px auto; }
-a { color: #D45818; }
-
-table { empty-cells: show; margin: 0 auto; border: 0; width: 600; cellpadding: 30; cellspacing: 3; }
+table { empty-cells: show; margin: 60px auto 0 auto; border: 0; width: 600; cellpadding: 30; cellspacing: 3; }
 tbody {  padding: 10px; }
   th { font-weight: bold; text-align: center; }
   td.example-title { width: 150px; }

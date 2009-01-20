@@ -1,15 +1,22 @@
 /* setup */
 
-body { font-family: "Trebuchet MS";}
-#tests { clear: both; margin-top: 1em; }
+body { font-family: "Trebuchet MS"; }
+
+h1 { text-align: center; font-size: 500%; margin: 100px auto 0 auto; }
+#links { width: 500px; margin: 0 auto 100px auto; text-align: center; }
+  #index { float: left; }
+  #spec  { float: right; }
+a { color: #D45818; }
+
+#tests { clear: both; margin: 0 auto; width: 800px; }
 
 a, a:link, a:visited {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 /* examples for border-color */
 
-.border-color-example { margin: 1em; }
+.border-color-example {  width: 500px; margin: 2em auto; padding: 1em; }
 
 #one.border-color-example {
   border: 10px solid #000;
@@ -17,7 +24,6 @@ a, a:link, a:visited {
   -moz-border-top-colors:    blue blue blue blue yellow yellow blue blue blue blue;
   -moz-border-left-colors:   blue blue blue blue yellow yellow blue blue blue blue;
   -moz-border-right-colors:  blue blue blue blue yellow yellow blue blue blue blue;
-  padding: 1em;
 }
 
 #two.border-color-example {
@@ -26,17 +32,16 @@ a, a:link, a:visited {
   -moz-border-top-colors:    blue yellow;
   -moz-border-left-colors:   blue blue blue blue yellow yellow blue blue blue blue;
   -moz-border-right-colors:  blue blue blue blue yellow yellow blue blue blue blue;
-  padding: 1em;
 }
 
 
 /* examples for border-radius */
 
 .border-radius-example {
-  width: 700px;
+  width: 500px;
   background-color: #EEEEEE;
   padding: 1em;
-  margin: 1em;
+  margin: 2em auto;
   border: 1px solid #000000;
 }
 
@@ -97,10 +102,10 @@ a, a:link, a:visited {
 /* examples for box-shadow */
 
 .box-shadow-example {
-  width: 700px;
+  width: 500px;
   background-color: #EEEEEE;
   padding: 1em;
-  margin: 1.5em;
+  margin: 2em auto;
   border: 1px solid #000000;
 }
 
@@ -126,9 +131,7 @@ a, a:link, a:visited {
 
 /* examples for column */
 
-.column-example {
-  margin: 1em;
-}
+.column-example { margin: 2em auto; width: 700px; }
 
 #two.column-example {
   -moz-column-width: 10em;
@@ -154,10 +157,10 @@ a, a:link, a:visited {
 /* examples for text-shadow */
 
 .text-shadow-example {
-  width: 700px;
+  width: 500px;
   background-color: #EEEEEE;
   padding: 1em;
-  margin: 1.5em;
+  margin: 2em auto;
   border: 1px solid #000000;
 }
 
@@ -188,12 +191,12 @@ a, a:link, a:visited {
 /* examples for resize */
 
 .resize-example {
-	width: 200px;
-	height: 100px;
-	border: 1px solid;
-	resize: both;
-	overflow: auto;
-	margin: 1em;
+  width: 200px;
+  height: 100px;
+  border: 1px solid;
+  resize: both;
+  overflow: auto;
+  margin: 2em auto;
 }
 
 #two.resize-example {
