@@ -1,16 +1,8 @@
 h1 { text-align: center; font-size: 500%; margin: 100px auto; }
 a { color: #D45818; }
 
-table {
-  empty-cells: show;
-  margin: 0 auto;
-  background-color: #CAD7F9;
-  -webkit-border-bottom-left-radius: 10px 10px;
-  -webkit-border-bottom-right-radius: 10px 10px;
-  -webkit-border-top-left-radius: 10px 10px;
-  -webkit-border-top-right-radius: 10px 10px;
-}
-tbody {  padding: 10px;}
+table { empty-cells: show; margin: 0 auto; border: 0; width: 600; cellpadding: 30; cellspacing: 3; }
+tbody {  padding: 10px; }
   th { font-weight: bold; text-align: center; }
   td.example-title { width: 150px; }
   th.ie7           { width: 90px; }
@@ -21,3 +13,4 @@ tbody {  padding: 10px;}
   th.webkit        { width: 90px; }
   td.fail { background: url('../images/delete.png') no-repeat center center; }
   td.pass { background: url('../images/accept.png') no-repeat center center; }
+  td.kinda { background: url('../images/cake.png') no-repeat center center; }
