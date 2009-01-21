@@ -1,6 +1,23 @@
-table { empty-cells: show; margin: 60px auto 0 auto; border: 0; width: 600; cellpadding: 30; cellspacing: 3; }
+#placemat {
+  -webkit-border-top-left-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  background-color: #EEEEEE;
+  width: 650px;
+  padding: 0.5em;
+  margin: 60px auto 0 auto;
+  -webkit-box-shadow: 30px 30px 4px #8FACE7;
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  resize: both;
+  overflow: auto;
+}
+
+table {  margin: 0 auto; border: 0; width: 600; }
 tbody {  padding: 10px; }
-  th { font-weight: bold; text-align: center; }
+  th { font-weight: bold; text-align: center; text-shadow: 2px 2px 2px #8FACE7; }
   td.example-title { width: 150px; }
   th.ie7           { width: 90px; }
   th.ie8           { width: 90px; }
