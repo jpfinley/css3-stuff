@@ -43,13 +43,12 @@ a, a:link, a:visited {
   background-color: #EEEEEE;
   padding: 1em;
   margin: 2em auto;
-  border: 14px solid #000000;
+  border: 1px solid #000000;
 }
 
 #one.border-radius-example {
-  border-top: none;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
 }
 
 #two.border-radius-example {
